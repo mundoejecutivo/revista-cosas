@@ -540,6 +540,7 @@ img{
     align-content: center;
     padding: 0px 10px;
     font-size: 15px;
+    overflow: hidden;
 }
 
 .nuevo_tono{
