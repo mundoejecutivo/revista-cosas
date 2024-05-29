@@ -713,7 +713,7 @@ img{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    align-content: center;
+    align-content: space-between;
     overflow: hidden;
     width: 20%;
     min-width: 280px;
@@ -962,7 +962,7 @@ img{
 
 .texto_tarjeta_nota_2{
     width: 100%;
-    height: auto;
+    height: 80px;
     text-align: left;
     text-transform: uppercase;
     font-family: "Inter", sans-serif;
@@ -971,6 +971,8 @@ img{
     font-weight: 600;
     margin-bottom: 20px;
     transition: 0.5s;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 .texto_tarjeta_nota_4{
@@ -1513,6 +1515,73 @@ img{
 
 .estado_flex{
     display: none;
+}
+
+.contenedor_404{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    background: #ffffff;
+}
+
+.contenedor_404_seccion_1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    width: 100%;
+    height: 20%;
+    background-color: #ffffff;
+}
+
+.contenedor_404_seccion_2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    width: 100%;
+    height: 60%;
+    background-color: #ffffff;
+    gap: 10%;
+}
+
+.contenedor_404_seccion_3{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    width: 100%;
+    height: 20%;
+    background-color: #ffffff;
+}
+
+.imagen_cosas404{
+    height: 60%;
+    cursor: pointer;
+}
+
+.boton_404{
+    border: none;
+    border-radius: 10px;
+    width: auto;
+    height: auto;
+    padding: 10px 10px;
+    background-color: #e30613;
+    color: #ffffff;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    cursor: pointer;
+    transition: 0.25s;
+}
+
+.boton_404:hover{
+    background-color: #c6000d;
+}
+
+.boton_404:active{
+    background-color: #a9000b;
 }
 /* -------------------------- */
 /* SECCIÓN UNIVERSAL |  FINAL */
@@ -3078,6 +3147,12 @@ img{
         justify-content: end;
         align-content: center;
         overflow: hidden;
+    }
+
+    .imagen_cosas404{
+        height: auto;
+        width: 80%;
+        cursor: pointer;
     }
 
     .texto_nota_h1{
