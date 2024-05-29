@@ -1,6 +1,15 @@
-REVISTA COSAS Versión 1.0
+REVISTA COSAS Versión 1.1
 
 Este código contienen todos los archivos del sitio web COSAS, los cuales son a nivel frontend y con requerimientos no funcionales. La idea de este sitio es transformar el portal y brindarle al usuario una experiencia intuitiva y amigable, donde se pueda sentir cómodo cuando lea el contenido y navegue enntre las notas.
+
+
+
+----------------------------------------------------------------
+----------------------------------------------------------------
+REGISTRO DE VERSIONES:
+
+1.0 - 17 de mayo del 2024
+1.1 - 28 de mayo del 2024
 
 
 
@@ -57,3 +66,47 @@ La paleta de colores que maneja el sitio web no es algo del otro mundo y por def
 ° Color rojo (texto y la barra de progreso de las notas): #e30613, active: a9000b, hover: e30613 y para cambiar el color de las imágenes al hacer hover: "filter: invert(10%) sepia(100%) saturate(5000%) hue-rotate(0deg);"
 
 ° Color del texto : #000000
+
+
+
+----------------------------------------------------------------
+----------------------------------------------------------------
+404.html
+
+El archivo 404.html que se encuentra dentro de la carpeta "files" es el archivo que debe mostrarse por defecto cuando un página no exita (si es necesario moverlo de ruta puedes hacerlo). Es importante aclarar que no creé ningún archivo htaccess, por lo tanto deberás crear uno para configurar el archivo 404.html como página de defecto.
+
+
+
+
+
+
+
+
+
+
+----------------------------------------------------------------
+
+Actualizaciones 28 de mayo del 2024 (versión 1.1) | INICIO
+
+----------------------------------------------------------------
+
+El 28 de mayo del 2024 agregué dos imágenes a la carpeta "images" cuyos nombre son "cosas404.png" y "cosas4042.png" las cuales aparecen en la página 404.html. Además, agregué el propio archivo 404.html a la carpeta "files". Por último, agregué clases al CSS para configurar el archivo 404.html. Podrás encontrar estas clases en las siguientes líneas:
+
+° Línea 1520 (.contenedor_404{})
+° Línea 1529 (.contenedor_404_seccion_1{})
+° Línea 1539 (.contenedor_404_seccion_2{})
+° Línea 1550 (.contenedor_404_seccion_3{})
+° Línea 1560 (.imagen_cosas404{})
+° Línea 1579 (.boton_404:hover{})
+° Línea 1583 (.boton_404:active{})
+
+Las clases que mencioné preteritamente fueron las que se agregaron al CSS, ahora te meciono las que ya existían y fueron actualizadas:
+
+° Línea 712 (.tarjeta_nota_universal{})
+° Línea 963 (.texto_tarjeta_nota_2{})
+
+----------------------------------------------------------------
+
+... | FINAL
+
+----------------------------------------------------------------
