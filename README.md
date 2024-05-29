@@ -110,3 +110,31 @@ Las clases que mencioné preteritamente fueron las que se agregaron al CSS, ahor
 ... | FINAL
 
 ----------------------------------------------------------------
+
+
+
+
+
+----------------------------------------------------------------
+
+Actualizaciones 29 de mayo del 2024 (versión 1.2) | INICIO
+
+----------------------------------------------------------------
+
+El 29 de mayo del 2024 agregué clases al CSS y el JS (main_nota.js), las cuales solucionan el problema que presentaba la página que le corresponde a cada artículo/nota, donde los textos que se generan dentro del contenedor "contenedor_textos_nota" no se les podía aplicar las clases debido a incompatiblidad con wordpress. En las siguientes líneas podrás encontrar las clases que agregué al CSS (no actualicé ninguna otra clase, solo agregué):
+
+° De la línea 3847 a la 3905 (.texto_nota_h1{}, .texto_nota_h2{}, texto_nota_h3{}, .texto_nota_h4{}, .texto_nota_h5{} y .texto_nota_h6{})
+° De la línea 3198 a la 3256 (.texto_nota_h1{}, .texto_nota_h2{}, texto_nota_h3{}, .texto_nota_h4{}, .texto_nota_h5{} y .texto_nota_h6{})
+° De la línea 391 a la 449 (.texto_nota_h1{}, .texto_nota_h2{}, texto_nota_h3{}, .texto_nota_h4{}, .texto_nota_h5{} y .texto_nota_h6{})
+
+
+JS:
+Con respecto al JS "main_nota.js" agregué más código (el resto de su contenido quedó intacto), el cual le agrega clases a los párrafos, h1, h2, h3, h4, h5 y h6 que se generen dinámicamente a través de Wordpress. Te comparto de que línea a que línea está el contenido nuevo:
+
+° De la línea 290 a la 311
+
+----------------------------------------------------------------
+
+... | FINAL
+
+----------------------------------------------------------------
