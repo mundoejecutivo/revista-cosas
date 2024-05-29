@@ -388,7 +388,7 @@ img{
     text-align: center;
 }
 
-.texto_nota_h1{
+.texto_nota_h1{/* SE AGREGÓ EN LA VERSIÓN 1.2 */
     width: 95%;
     height: auto;
     color: #000000;
@@ -398,7 +398,47 @@ img{
     margin-bottom: 25px;
 }
 
-.texto_nota_h2{
+.texto_nota_h2{/* SE AGREGÓ EN LA VERSIÓN 1.2 */
+    width: 95%;
+    height: auto;
+    color: #000000;
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    font-size: 25px;
+    margin-bottom: 25px;
+}
+
+.texto_nota_h3{/* SE AGREGÓ EN LA VERSIÓN 1.2 */
+    width: 95%;
+    height: auto;
+    color: #000000;
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    font-size: 25px;
+    margin-bottom: 25px;
+}
+
+.texto_nota_h4{/* SE AGREGÓ EN LA VERSIÓN 1.2 */
+    width: 95%;
+    height: auto;
+    color: #000000;
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    font-size: 25px;
+    margin-bottom: 25px;
+}
+
+.texto_nota_h5{/* SE AGREGÓ EN LA VERSIÓN 1.2 */
+    width: 95%;
+    height: auto;
+    color: #000000;
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    font-size: 25px;
+    margin-bottom: 25px;
+}
+
+.texto_nota_h6{/* SE AGREGÓ EN LA VERSIÓN 1.2 */
     width: 95%;
     height: auto;
     color: #000000;
@@ -3155,7 +3195,57 @@ img{
         cursor: pointer;
     }
 
-    .texto_nota_h1{
+    .texto_nota_h1{/* SE AGREGÓ EN LA VERSIÓN 1.2 */
+        width: 95%;
+        height: auto;
+        color: #000000;
+        font-family: "Inter", sans-serif;
+        font-weight: 600;
+        font-size: 30px;
+        margin-bottom: 25px;
+    }
+
+    .texto_nota_h2{/* SE AGREGÓ EN LA VERSIÓN 1.2 */
+        width: 95%;
+        height: auto;
+        color: #000000;
+        font-family: "Inter", sans-serif;
+        font-weight: 600;
+        font-size: 30px;
+        margin-bottom: 25px;
+    }
+
+    .texto_nota_h3{/* SE AGREGÓ EN LA VERSIÓN 1.2 */
+        width: 95%;
+        height: auto;
+        color: #000000;
+        font-family: "Inter", sans-serif;
+        font-weight: 600;
+        font-size: 30px;
+        margin-bottom: 25px;
+    }
+
+    .texto_nota_h4{/* SE AGREGÓ EN LA VERSIÓN 1.2 */
+        width: 95%;
+        height: auto;
+        color: #000000;
+        font-family: "Inter", sans-serif;
+        font-weight: 600;
+        font-size: 30px;
+        margin-bottom: 25px;
+    }
+
+    .texto_nota_h5{/* SE AGREGÓ EN LA VERSIÓN 1.2 */
+        width: 95%;
+        height: auto;
+        color: #000000;
+        font-family: "Inter", sans-serif;
+        font-weight: 600;
+        font-size: 30px;
+        margin-bottom: 25px;
+    }
+
+    .texto_nota_h6{/* SE AGREGÓ EN LA VERSIÓN 1.2 */
         width: 95%;
         height: auto;
         color: #000000;
@@ -3754,7 +3844,57 @@ img{
 
 
 @media screen and (min-width: 0px) and (max-width:299px){
-    .texto_nota_h1{
+    .texto_nota_h1{/* SE AGREGÓ EN LA VERSIÓN 1.2 */
+        width: 95%;
+        height: auto;
+        color: #000000;
+        font-family: "Inter", sans-serif;
+        font-weight: 600;
+        font-size: 30px;
+        margin-bottom: 25px;
+    }
+
+    .texto_nota_h2{/* SE AGREGÓ EN LA VERSIÓN 1.2 */
+        width: 95%;
+        height: auto;
+        color: #000000;
+        font-family: "Inter", sans-serif;
+        font-weight: 600;
+        font-size: 30px;
+        margin-bottom: 25px;
+    }
+
+    .texto_nota_h3{/* SE AGREGÓ EN LA VERSIÓN 1.2 */
+        width: 95%;
+        height: auto;
+        color: #000000;
+        font-family: "Inter", sans-serif;
+        font-weight: 600;
+        font-size: 30px;
+        margin-bottom: 25px;
+    }
+
+    .texto_nota_h4{/* SE AGREGÓ EN LA VERSIÓN 1.2 */
+        width: 95%;
+        height: auto;
+        color: #000000;
+        font-family: "Inter", sans-serif;
+        font-weight: 600;
+        font-size: 30px;
+        margin-bottom: 25px;
+    }
+
+    .texto_nota_h5{/* SE AGREGÓ EN LA VERSIÓN 1.2 */
+        width: 95%;
+        height: auto;
+        color: #000000;
+        font-family: "Inter", sans-serif;
+        font-weight: 600;
+        font-size: 30px;
+        margin-bottom: 25px;
+    }
+
+    .texto_nota_h6{/* SE AGREGÓ EN LA VERSIÓN 1.2 */
         width: 95%;
         height: auto;
         color: #000000;
