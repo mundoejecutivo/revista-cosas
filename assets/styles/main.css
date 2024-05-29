@@ -709,7 +709,7 @@ img{
     margin-bottom: 50px;
 }
 
-.tarjeta_nota_universal{
+.tarjeta_nota_universal{/* FUE MODIFICADA EN LA VERSIÓN 1.1 */
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -960,7 +960,7 @@ img{
     font-size: 15px;
 }
 
-.texto_tarjeta_nota_2{
+.texto_tarjeta_nota_2{/* FUE MODIFICADA EN LA VERSIÓN 1.1 */
     width: 100%;
     height: 80px;
     text-align: left;
@@ -1517,7 +1517,7 @@ img{
     display: none;
 }
 
-.contenedor_404{
+.contenedor_404{/* CLASE AGREGADA EN LA ACTUALIZACIÓN 1.1*/
     position: absolute;
     top: 0%;
     left: 0%;
@@ -1526,7 +1526,7 @@ img{
     background: #ffffff;
 }
 
-.contenedor_404_seccion_1{
+.contenedor_404_seccion_1{/* CLASE AGREGADA EN LA ACTUALIZACIÓN 1.1*/
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -1536,7 +1536,7 @@ img{
     background-color: #ffffff;
 }
 
-.contenedor_404_seccion_2{
+.contenedor_404_seccion_2{/* CLASE AGREGADA EN LA ACTUALIZACIÓN 1.1*/
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -1547,7 +1547,7 @@ img{
     gap: 10%;
 }
 
-.contenedor_404_seccion_3{
+.contenedor_404_seccion_3{/* CLASE AGREGADA EN LA ACTUALIZACIÓN 1.1*/
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -1557,12 +1557,12 @@ img{
     background-color: #ffffff;
 }
 
-.imagen_cosas404{
+.imagen_cosas404{/* CLASE AGREGADA EN LA ACTUALIZACIÓN 1.1*/
     height: 60%;
     cursor: pointer;
 }
 
-.boton_404{
+.boton_404{/* CLASE AGREGADA EN LA ACTUALIZACIÓN 1.1*/
     border: none;
     border-radius: 10px;
     width: auto;
@@ -1576,11 +1576,11 @@ img{
     transition: 0.25s;
 }
 
-.boton_404:hover{
+.boton_404:hover{/* CLASE AGREGADA EN LA ACTUALIZACIÓN 1.1*/
     background-color: #c6000d;
 }
 
-.boton_404:active{
+.boton_404:active{/* CLASE AGREGADA EN LA ACTUALIZACIÓN 1.1*/
     background-color: #a9000b;
 }
 /* -------------------------- */
