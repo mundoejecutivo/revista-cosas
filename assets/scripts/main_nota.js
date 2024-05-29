@@ -282,3 +282,30 @@ function cerrar_celular(){
 /* -------------------------------------------------------------------------- */
 /* ESTE CÓDIGO ES EL RESPONSABLE DEL MENÚ EN SU VERSIÓN PARA CELULAR |  FINAL */
 /* -------------------------------------------------------------------------- */
+
+
+
+
+
+/* ------------------------------------------------------------------------------------------------------------------------------ */
+/* ESTE CÓDIGO ES EL RESPONSABLE DE PONERLE CLASES A LOS TEXTOS QUE ESTÉN DENTRO DEL CONTENEDOR "contenedor_textos_nota" | INICIO */
+/* ------------------------------------------------------------------------------------------------------------------------------ */
+document.addEventListener("DOMContentLoaded", function() {
+
+    var contenedor = document.querySelector('.contenedor_textos_nota');
+    
+    var parrafos = contenedor.querySelectorAll('p');
+    parrafos.forEach(function(parrafo) {
+        parrafo.classList.add('texto_nota');
+    });
+    
+    for (var i = 1; i <= 6; i++) {
+        var encabezados = contenedor.querySelectorAll('h' + i);
+        encabezados.forEach(function(encabezado) {
+            encabezado.classList.add('texto_nota_h' + i);
+        });
+    }
+});
+/* ------------------------------------------------------------------------------------------------------------------------------ */
+/* ESTE CÓDIGO ES EL RESPONSABLE DE PONERLE CLASES A LOS TEXTOS QUE ESTÉN DENTRO DEL CONTENEDOR "contenedor_textos_nota" |  FINAL */
+/* ------------------------------------------------------------------------------------------------------------------------------ */
