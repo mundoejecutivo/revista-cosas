@@ -251,3 +251,47 @@ Las otras veces que se re repite la clase es dentro de los media screen y absolu
 ... | FINAL
 
 ----------------------------------------------------------------
+
+
+
+
+
+
+----------------------------------------------------------------
+
+Actualizaciones 31 de mayo del 2024 (versión 1.5) | INICIO
+
+----------------------------------------------------------------
+
+El 31 de mayo del 2024 agregué y actualicé el JS e index.html para poder arreglar el problema que presenta el slider del encabezado, el css solo sufrió una pequeña cosita
+y fue agregarle una nueva clase.
+
+INDEX.HTML
+
+Donde previamente se encontraba la section del slider hay que eliminarla por completo (todo su correspondiente section) y remplazarlo por este:
+
+° De la línea 135 a la 155 (Todo eso es el nuevo slider)
+
+
+MAIN.JS:
+
+Donde previamente se encontraba la configuración del slider hay que eliminarla por completo y remplazarlo por esto:
+
+° En el main.js que tenías (no este actualizado, sino el que ya tenías) la configuración del slider la encontrarás de la línea 30 a la 90 y eso es la que debe ser eliminado y sustituido
+por lo que está en este nuevo main.js
+
+°De la línea 25 a la 58 está el código del nuevo slider.
+
+
+MAIN.CSS:
+
+Al final del código agrega esta clase (literalmente al final de todo, FUERA de cualquier media screen):
+.imagen_oculta {
+    display: none; /* Ocultar las imágenes ocultas por defecto */
+}
+
+----------------------------------------------------------------
+
+... | FINAL
+
+----------------------------------------------------------------
