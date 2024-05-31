@@ -138,3 +138,116 @@ Con respecto al JS "main_nota.js" agregué más código (el resto de su contenid
 ... | FINAL
 
 ----------------------------------------------------------------
+
+
+
+
+
+----------------------------------------------------------------
+
+Actualizaciones 30 de mayo del 2024 (versión 1.3) | INICIO
+
+----------------------------------------------------------------
+
+El 30 de mayo del 2024 agregué y actualicé el nuevo carrusel del index, para agregarlo y actualizarlo solo deberás centrarte en el archivo index.html. Te comparto de que a que líneas están las actualizaciones:
+
+° De la línea 353 a la 389 (section del carrusel que debe actualizarse)
+
+Ahora te comparto de que a que línea está el contenido que debes agregar:
+
+° De la línea 804 a la 896
+
+----------------------------------------------------------------
+
+... | FINAL
+
+----------------------------------------------------------------
+
+
+
+
+
+----------------------------------------------------------------
+
+Actualizaciones 31 de mayo del 2024 (versión 1.4) | INICIO
+
+----------------------------------------------------------------
+
+El 31 de mayo del 2024 agregué y actualicé el CSS para mejorar la estructura del HTML que le corresponde a cada nota, debido a problemas presentados con wordpress html. Esta actualización agrega clases y modifica otras ya existentes, como primer paso inidcaré cuales fueron agregadas:
+
+° Las líneas: 1581, 1796, 1941, 2234, 2674, 3283, 3997 y 4675 cuentan con clases que fueron agregadas (estado_flex).
+° Las líneas: 740, 1672, 1817, 1960, 2249, 2694, 2747, 3334 y 4017 cuentan con clases que fueron agregadas (contenedor_universal_2).
+
+
+
+Ahora las clases que fueron actualizadas:
+
+° Las líneas: 1363, 2240, 3434 y 4098 (cotenedor_opciones_nota) 
+° Las líneas: 751, 1690, 1828, 2023, 2491, 3072, 3815 y 4498 (contenedor_universal_nota) 
+° Las líneas: 1083, 2655, 2758, 3422 y 4086 (contenedor_textos_nota) 
+
+
+
+Es muy y sumamente muy importante aclarar debido a que fueron agregadas nuevas clases muy probablemente en el CSS que tengan no se encuentren las clases que fueron actualizadas en las líenas que mencioné, por lo tanto hago una
+aclaración por si se desea buscar la clase dentro del css. La primera vez que se menciona la clase (fuera de los media screen) se le aplican estas propiedades:
+.cotenedor_opciones_nota{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: end;
+    align-content: center;
+    width: 100%;
+    height: auto;
+    margin-bottom: 25px;
+    padding: 20px 0px;
+    gap: 10px;
+}
+
+.contenedor_universal_nota{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: start;
+    width: 60%;
+    height: auto;
+    border-bottom: 2px #eeeeee solid;
+    grid-gap: 0px 0px;
+}
+
+.contenedor_textos_nota{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: start;
+    width: 100%;
+    height: auto;
+}
+
+Las otras veces que se re repite la clase es dentro de los media screen y absolutamente en todos los demás se les aplica las mismas propiedades (esta lógica aplica para las tres clases):
+.cotenedor_opciones_nota{
+    width: 100%;
+    height: auto;
+    margin-bottom: 0px;
+    padding: 20px 0px;
+    gap: 10px;
+}
+
+.contenedor_universal_nota{
+    width: 100%;
+    height: auto;
+    border-bottom: 2px #eeeeee solid;
+}
+
+.contenedor_textos_nota{
+    justify-content: center;
+    align-content: start;
+    width: 100%;
+    height: auto;
+}
+
+
+
+----------------------------------------------------------------
+
+... | FINAL
+
+----------------------------------------------------------------
