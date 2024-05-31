@@ -4768,3 +4768,6 @@ Twitter: @xsgames_
 }
 /* ----------------------------------------------
 ---------------------------------------------- */
+.imagen_oculta {/* CLASE AGREGADA EN LA ACTUALIZACIÓN 1.5*/
+    display: none; /* Ocultar las imágenes ocultas por defecto */
+}
