@@ -6,19 +6,6 @@ function logo_cosas(id) {
     });
 }
 
-function cambiarImagenSegunFecha() {
-    var ahora = new Date();
-    var mes = ahora.getMonth() + 1;
-
-    if (mes == 11 && (ahora.getDate() == 1 || ahora.getDate() == 2)) {
-        document.getElementById("imagen_ancla").src = "assets/images/logo.webp";
-    } else if (mes == 12 && ahora.getDate() >= 1 && ahora.getDate() <= 25) {
-        document.getElementById("imagen_ancla").src = "assets/images/logo.webp";
-    } else {
-        document.getElementById("imagen_ancla").src = "assets/images/logo.webp";
-    }
-}
-
 window.onload = cambiarImagenSegunFecha;
 
 
